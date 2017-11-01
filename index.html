@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  <meta name="viewport" content="width=device-width">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <section id="select-symbol" class="center">
+    <div class="txt-big">Select character:</div>
+    <div class="txt-small">x always goes first</div>
+    <div id="symbol-options">
+      <div id="symbol-o">o</div>
+      <div id="symbol-x">x</div>
+    </div>
+  </section>
+
+  <section id="select-difficulty" class="center">
+    <div class="txt-big">Select difficulty:</div>
+    <div id="easy" class="difficulty-options">Easy</div>
+    <div id="normal" class="difficulty-options">Normal</div>
+    <div id="impossible" class="difficulty-options">Impossible</div>
+  </section>
+
+  <section id="game" class="center">
+    <div id="txt-difficulty">Difficulty: <span></span></div>
+    <div id="game-board">
+      <div class="game-board-tile" id="0"></div>
+      <div class="game-board-tile" id="1"></div>
+      <div class="game-board-tile" id="2"></div>
+      <div class="game-board-tile" id="3"></div>
+      <div class="game-board-tile" id="4"></div>
+      <div class="game-board-tile" id="5"></div>
+      <div class="game-board-tile" id="6"></div>
+      <div class="game-board-tile" id="7"></div>
+      <div class="game-board-tile" id="8"></div>
+    </div>
+    <img id="icon-comp" src="img/icon_comp.png">
+    <span id="score-comp">0</span>
+    <div id="btn-reset">Reset</div>
+    <img id="icon-user" src="img/icon_user.png">
+    <span id="score-user">0</span>
+  </section>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
